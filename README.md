@@ -2,7 +2,7 @@
 URLTor es un "acortador de URL" implementado en Kotlin y Ktor, para practicar ambas cosas.
 No esperes muchas funcionalidades (aún).
 
-###Ejecución
+### Ejecución
 compilar con `mvn clean package` (no sé aún cómo hacerlo desde el Intellij IDEA) y luego
 ejecutar con `java -jar target/urltor-0.0.1-jar-with-dependencies.jar`
 
