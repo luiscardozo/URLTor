@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.luisc.k</groupId>
-    <artifactId>urltor</artifactId>
+    <artifactId>redirektor</artifactId>
     <version>0.0.1</version>
-    <name>urltor</name>
-    <description>urltor</description>
+    <name>redireKtor</name>
+    <description>redireKtor: URL Shortener to practice Ktor and Kotlin</description>
     <properties>
         <ktor_version>1.2.4</ktor_version>
         <kotlin.code.style>official</kotlin.code.style>
