@@ -1,11 +1,13 @@
-## redireKtor
-redireKtor es un "acortador de URL" implementado en Kotlin y Ktor, para practicar ambas cosas.
-No esperes muchas funcionalidades (aún).
+# redireKtor
 
-### Ejecución
-compilar con `mvn clean package` (no sé aún cómo hacerlo desde el Intellij IDEA) y luego
-ejecutar con `java -jar target/redireKtor-0.0.1-jar-with-dependencies.jar`
+redireKtor is an URL shortener implemented in Kotlin and Ktor, as a practice to prepare for my talk on **Kotlin Everywhere** Ciudad del Este 2019.
 
-Como parámetro se le puede pasar el puerto en donde se desea escuchar (Escucha por defecto en
-8080). Ej.:`java -jar target/redireKtor-0.0.1-jar-with-dependencies.jar -port=8180`
- 
+## Configuration
+Currently there is not a separate configuration file. RedireKtor requires a database (and a JDBC Driver), both of with you need to change in `src/Application.kt`, in the `fun dbConnect()` function.
+
+## Running
+Compile with `mvn clean package` and then execute with `java -jar target/redireKtor-0.0.1-jar-with-dependencies.jar`
+
+You can pass the listening port as a parameter ( -port= ). Default port is 8080.
+
+For example, to change to port 8081: `java -jar target/redireKtor-0.0.1-jar-with-dependencies.jar -port=8180`
